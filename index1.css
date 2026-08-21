@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: courier;
+  background-color: #90e0ef;
+  color: #03045e;
+  font-weight: bold;
+}
+.div1 {
+  margin: 0 0 200px 0;
+}
+.div2 {
+  margin: 100px 0;
+}
+.imgimg {
+  width: 600px;
+  height: 400px;
+  padding: 10px;
+  border-radius: 200px;
+  border: none;
+}
+.imgsmall {
+  width: 200px;
+  height:200px;
+  padding: 50px;
+  border-radius: 200px;
+}
+
+.flex {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
