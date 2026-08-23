@@ -61,7 +61,7 @@ function draw() {
   usedCards.push(cardId);
 
   let img = document.createElement("img");
-  img.src = `./cards/${drawn}-${suit}.jpg`
+  img.src = `./${drawn}-${suit}.jpg`
   divy.appendChild(img);
   cardsp.textContent ="Cards: ";
  
