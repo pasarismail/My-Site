@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(13, 85, 13);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(208, 139, 10);
+  text-align: center;
+}
+
+button {
+  background-color:rgb(208, 139, 10);
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(13, 85, 13);
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+#div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px
+}
+img {
+  width: 80px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
