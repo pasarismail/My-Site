@@ -1,0 +1,58 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color: hsl(180, 3%, 87%);
+
+}
+#headdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #4361ee;
+  margin: 0 0 20px 0;
+  border-radius: 20px;
+  padding: 20px 0; 
+  color: #edf2f4;
+}
+button {
+  padding: 10px 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#maindiv {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+   
+}
+.divy {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width:100%;
+  border-radius: 20px;
+  text-align: center;
+}
+input {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: xx-large;
+  font-weight: bold;
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+}
